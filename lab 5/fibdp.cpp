@@ -13,5 +13,5 @@ int main ()
 {
 dp[0]=0;
 dp[1]=1;
-cout<< fibonacci(40)<<endl; // Output the 20th Fibonacci number
+cout<< fibonacci(20)<<endl; // Output the 20th Fibonacci number
 }
