@@ -38,7 +38,7 @@ void merge_(vector<int> &v, int low, int high, int mid)
         k++;
     }
 
-    
+    // Copy remaining elements of left[]
     while (i < left.size())
     {
         v[k] = left[i];
