@@ -17,7 +17,7 @@ bool compare(const Item &a, const Item &b)
     return ra > rb; // Sort in descending order of value-to-weight ratio 
 } 
 // Function to solve the fractional knapsack problem
-int frac_knapsack(vector<Item> items, int cap)
+double frac_knapsack(vector<Item> items, int cap)
 {
     sort(items.begin(), items.end(), compare); // Sort items based on value-to-weight ratio
     double profit = 0.0; // Initialize total profit
