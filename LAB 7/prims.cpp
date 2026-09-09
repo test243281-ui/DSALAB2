@@ -5,6 +5,12 @@ typedef pair <int,int> iip;
 int prim(vector<vector<iip>> &graph,int n){
   priority_queue < iip,vector <iip> ,greater<iip> > pq;
   vector <bool> inMST(n,false);
+  pq.push({0,0});
+  while(!pq.empty()){
+    iip p=pq.top();
+    pq.pop();
+    int u=p.second;
+    
 
 }
 
